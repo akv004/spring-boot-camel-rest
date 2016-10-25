@@ -5,5 +5,6 @@ It demonstrate how to integrate following technologies:
 camel routes, camel rest , hawtio-springboot, spring boot & AngularJS
 
 http://localhost:10000/camel-rest/images
+
 http://localhost:10000/hawtio/index.html
 
