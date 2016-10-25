@@ -1,0 +1,14 @@
+<rests xmlns="http://camel.apache.org/schema/spring">
+
+ <rest>
+    <get uri="/image/{imagename}">
+      <to uri="direct:getimage"/>
+    </get>
+    
+    <get uri="/images">
+      <to uri="direct:images"/>
+    </get>
+    
+  </rest>
+  
+ </rests>
